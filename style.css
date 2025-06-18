@@ -1,0 +1,56 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #67d1d5;
+  padding: 20px;
+}
+
+.container {
+  max-width: 800px;
+  margin: auto;
+  background: #e3ea26b8;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+input, textarea {
+  padding: 10px;
+  font-size: 16px;
+}
+
+button {
+  background-color: #007bff;
+  color: rgb(6, 4, 18);
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.project {
+  border: 1px solid #dddddde1;
+  margin-top: 15px;
+  padding: 15px;
+  border-radius: 6px;
+  background-color: #a919cd;
+}
+
+.project h3 {
+  margin: 0 0 10px;
+}
+
+.project .fund {
+  margin-top: 10px;
+}
+
+.project .update {
+  margin-top: 10px;
+}
+
+.update p {
+  font-size: 0.9em;
+}
